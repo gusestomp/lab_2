@@ -32,3 +32,5 @@ grep -i "geocities.com" regex_practice.txt >> email_results.txt
 
 # append all of the data collected in previous steps and put into command_results.txt
 grep "$regexp" regex_practice.txt >> command_results.txt
+
+# I ran into problems with filtering out some of the telephone numbers from the list, I could not figure out why several false-positives passed through the filter. I also ran into problems with the counting of both, the telephone and email lists. 
